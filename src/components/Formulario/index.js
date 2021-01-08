@@ -53,8 +53,7 @@ class Formulario extends Component{
                             value={this.state.tarefa} onChange={ (ev) => this.setState({tarefa: ev.target.value})} 
                             ref={(event)=>this._tarefaInput = event }/>
                     
-                    <input type="password" placeholder="*******"/>
-                    <button type="submit">Adicionar</button>
+                    <input type="password" placeholder="*******"/>                    <button type="submit">Adicionar</button>
                     <button onClick={this.log}>log</button>
 
                    
